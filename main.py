@@ -54,5 +54,5 @@ async def add_command(ctx, command_name: str):
 
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(bot.start(os.getenv('BOT_TOKEN')))
+    loop.run_forever(bot.start(os.getenv('BOT_TOKEN')))
     loop.create_task(app.run(debug=True))
