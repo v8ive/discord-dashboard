@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Initialize Discord Bot
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 # Replace these with appropriate credentials/connection details
 db_config = {
