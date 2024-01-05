@@ -1,7 +1,13 @@
-# React Admin Dashboard
+## Discord-Inspired Dashboard with Tailwind CSS3
 
-Build a COMPLETE React Admin Dashboard App | React, Material UI, Data Grid, Light & Dark Mode
+- [Live demo](https://wuv.netlify.app)
+- First time using / Working with api's kinda fun too be honest
 
-Video: https://www.youtube.com/watch?v=wYpCWwD1oz0
+#### Dark mode
 
-For all related questions and discussions about this project, check out the discord: https://discord.gg/2FfPeEk2mX
+![Dark mode](./dark.PNG)
+
+#### Light mode
+
+![Light mode](./light.PNG)
+
